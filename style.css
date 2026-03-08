@@ -2,12 +2,13 @@
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
-    margin: 0;
+    margin: 5px;
     padding: 0;
 }
 
 body {
     display: grid;
+    padding: auto;
 }
 
 /* Control for navbar */
@@ -39,6 +40,7 @@ body {
     margin: 0 auto;
     justify-content: space-around;
     padding: 40px 20px;
+    padding: auto;
 }
 
 /* Control for responsiveness */
