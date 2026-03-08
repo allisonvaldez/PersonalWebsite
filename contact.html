@@ -21,23 +21,25 @@
     <main class="main-content">
         <h1>Contact Me</h1>
 
-        <form>
+        <form action="mailto:your@email.com" method="post" enctype="text/plain">
             <fieldset>
                 <div class="form-group">
                     <label for="firstLastName">Name: </label>
                     <input type="text" class="fname" name="firstname" placeholder="Your Name Here"> <br>
 
-                    <label for="emailAddres">Email: </label>
-                    <input type="text" class="fname" name="firstname" placeholder="YourEmail@domain.com"> <br>
-                    Message: <br> <textarea class="textboox" rows="15" cols="100"></textarea> <br>
+                    <label for="emailAddress">Email: </label>
+                    <input type="email" class="fname" name="email" placeholder="YourEmail@domain.com"> <br>
+
+                    Message: <br>
+                    <textarea class="textboox" name="message" rows="15" cols="100"></textarea> <br>
+
+                    <button type="submit" class="center submitbutton"> Submit</button>
                 </div>
             </fieldset>
         </form>
-        <button type="submit" class="center submitbutton"> Submit</button>
+    </main>
 
-
-
-        <footer class="footer center"> Copyright © 2026</footer>
+    <footer class="footer center"> Copyright © 2026</footer>
 </body>
 
 </html>
