@@ -1,5 +1,5 @@
 # Project Title
-A brief description of what this project does and who it's for.
+This project is to showcase the deliverables for the Summerative Lab.
 
 ## Installation
 Instructions for setting up the project locally.
