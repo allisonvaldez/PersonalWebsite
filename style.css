@@ -43,6 +43,16 @@ body {
     padding: auto;
 }
 
+/* Footer */
+#footer {
+    color: black;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
 /* Control for responsiveness */
 @media (max-width: 600px) {
     .flex-container {
