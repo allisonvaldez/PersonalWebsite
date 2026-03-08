@@ -1,4 +1,4 @@
-# Project Title
+# Personal Website
 This project is to showcase the deliverables for the Summerative Lab.
 
 ## Installation
